@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\WpfApp1\\WTF.TestTool.csproj": {}
+    "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.TestTool.csproj": {}
   },
   "projects": {
-    "D:\\Code\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj": {
+    "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
+        "projectUniqueName": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
         "projectName": "WTF.Plugins",
-        "projectPath": "D:\\Code\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
+        "projectPath": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
         "packagesPath": "C:\\Users\\92418\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\WpfApp1\\WTF.Plugins\\obj\\",
+        "outputPath": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\APP\\VS_SHARE\\NuGetPackages"
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Code\\WpfApp1\\WTF.TestTool.csproj": {
+    "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.TestTool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\WpfApp1\\WTF.TestTool.csproj",
+        "projectUniqueName": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.TestTool.csproj",
         "projectName": "WTF.TestTool",
-        "projectPath": "D:\\Code\\WpfApp1\\WTF.TestTool.csproj",
+        "projectPath": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.TestTool.csproj",
         "packagesPath": "C:\\Users\\92418\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\WpfApp1\\obj\\",
+        "outputPath": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\APP\\VS_SHARE\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Code\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj": {
-                "projectPath": "D:\\Code\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj"
+              "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj": {
+                "projectPath": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj"
               }
             }
           }

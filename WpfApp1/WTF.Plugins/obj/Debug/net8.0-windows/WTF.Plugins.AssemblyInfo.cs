@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WTF.Plugins")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf01ab90a3e6d27c24efa4a4ecd1781bd65485e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("WTF.Plugins")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WTF.Plugins")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

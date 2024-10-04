@@ -409,11 +409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
+      "projectUniqueName": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
       "projectName": "WTF.Plugins",
-      "projectPath": "D:\\Code\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
+      "projectPath": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
       "packagesPath": "C:\\Users\\92418\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\WpfApp1\\WTF.Plugins\\obj\\",
+      "outputPath": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\APP\\VS_SHARE\\NuGetPackages"

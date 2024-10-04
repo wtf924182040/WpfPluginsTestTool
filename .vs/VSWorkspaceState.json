@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WpfApp1",
+    "\\WpfApp1\\WTF.Plugins"
   ],
-  "SelectedNode": "\\WTF.TestTool.csproj",
+  "SelectedNode": "\\WpfApp1\\WTF.Plugins\\WTF.Plugins.cs",
   "PreviewInSolutionExplorer": false
 }

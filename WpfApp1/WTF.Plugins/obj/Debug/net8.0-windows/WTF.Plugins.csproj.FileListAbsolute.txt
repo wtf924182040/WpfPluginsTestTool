@@ -22,3 +22,16 @@ D:\Code\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.dll
 D:\Code\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\refint\WTF.Plugins.dll
 D:\Code\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.pdb
 D:\Code\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\ref\WTF.Plugins.dll
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\bin\Debug\net8.0-windows\WTF.Plugins.deps.json
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\bin\Debug\net8.0-windows\WTF.Plugins.dll
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\bin\Debug\net8.0-windows\WTF.Plugins.pdb
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.csproj.AssemblyReference.cache
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.AssemblyInfoInputs.cache
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.AssemblyInfo.cs
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.csproj.CoreCompileInputs.cache
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.sourcelink.json
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.dll
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\refint\WTF.Plugins.dll
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\WTF.Plugins.pdb
+D:\Code\WpfPluginsTestTool.git\WpfApp1\WTF.Plugins\obj\Debug\net8.0-windows\ref\WTF.Plugins.dll

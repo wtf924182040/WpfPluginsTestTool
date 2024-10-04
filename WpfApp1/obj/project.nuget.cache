@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6ZdnMFOobt8=",
+  "dgSpecHash": "b5f0HIcuoV8=",
   "success": true,
-  "projectFilePath": "D:\\Code\\WpfApp1\\WTF.TestTool.csproj",
+  "projectFilePath": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.TestTool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\92418\\.nuget\\packages\\communitytoolkit.mvvm\\8.3.2\\communitytoolkit.mvvm.8.3.2.nupkg.sha512",
     "C:\\Users\\92418\\.nuget\\packages\\handycontrol\\3.5.1\\handycontrol.3.5.1.nupkg.sha512",

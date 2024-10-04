@@ -15,6 +15,9 @@ using System.Net.Sockets;
 using System.Diagnostics.Eventing.Reader;
 using System.Net.Http;
 using System.Text;
+using System.Drawing;
+using System;
+using System.Net.Mime;
 namespace WTF
 {
     namespace Plugins
@@ -225,6 +228,7 @@ namespace WTF
                     return true;
                 }
             }
+
         }
         public interface IPluginsBase
         {
@@ -443,30 +447,65 @@ namespace WTF
             {
                 try
                 {
-                    MyTcpClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                    MyTcpClient.Connect(RIP, RPort);
-                    Byte[] data = Encoding.ASCII.GetBytes(Sedtxt);
+                    if (MyTcpClient == null)
+                    {
+                        MyTcpClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                    }
+                    if (!MyTcpClient.Connected)
+                    {
+                        MyTcpClient.Connect(RIP, RPort);
+                    }
+                    Byte[] data;
+                    if (Usencoding == Usencod.ASCII)
+                    {
+                        data = Encoding.ASCII.GetBytes(Sedtxt);
+                    }
+                    else
+                    {
+                        data = Encoding.Unicode.GetBytes(Sedtxt);
+                    }
                     MyTcpClient.Send(data);
                     LogMessage tep = new LogMessage($"发送{Sedtxt}完成");
                     tep.PostMsg();
                     data = new byte[1024];
-                    MyTcpClient.Receive(data);
-                    Rectxt = Encoding.ASCII.GetString(data, 0, data.Length);
-                    MyTcpClient.Close();
+                    int temp = MyTcpClient.Receive(data);
+
+                    if (Usencoding == Usencod.ASCII)
+                    {
+                        Rectxt = Encoding.ASCII.GetString(data, 0, data.Length);
+                    }
+                    else
+                    {
+                        Rectxt = Encoding.Unicode.GetString(data, 0, data.Length);
+                    }
+                    if (SedHex)
+                    {
+                        Rectxt = BitConverter.ToString(data, 0, temp).Replace("-", " ").ToUpper();
+                    }
                     return $"发送{Sedtxt}完成";
+                }
+                catch (System.Net.Sockets.SocketException ex)
+                {
+                    LogMessage tep = new LogMessage("服务器断开连接,请重试");
+                    tep.PostError();               
+                    //MyTcpClient.Dispose();
+                    MyTcpClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp) ;
+                    return ex.Message;
                 }
                 catch (Exception ex)
                 {
 
                     LogMessage tep = new LogMessage(ex.Message);
-                    tep.PostError();
+                    tep.PostError();        
+                    //MyTcpClient.Dispose();
+                    MyTcpClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                     return ex.Message;
+
                 }
 
 
 
             }
-
             #region IP地址属性
             private string _rip = "127.0.0.1";
             [Category("参数")]
@@ -480,10 +519,9 @@ namespace WTF
             }
             #endregion
 
-
             private Socket myVar = null;
             [Browsable(false)]
-            [JsonIgnore]
+            // [JsonIgnore]
             public Socket MyTcpClient
             {
                 get { return myVar; }
@@ -520,6 +558,24 @@ namespace WTF
                 get { return _sedhex; }
                 set { SetProperty(ref _sedhex, value, true); Check(); }
             }
+
+
+            private Usencod usencoding;
+            [Category("参数")]
+            [DisplayName("接收和发送使用的编码")]
+            [Description("接收和发送使用的编码")]
+            public Usencod Usencoding
+            {
+                get { return usencoding; }
+                set { usencoding = value; }
+            }
+            public enum Usencod
+            {
+                ASCII,
+                Unicode
+            }
+
+
             private string _rex = "";
             [Category("参数")]
             [DisplayName("接收文本：")]
