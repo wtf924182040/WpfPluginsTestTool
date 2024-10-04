@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UserSecretsId>42ae5632-f14c-4964-9985-a138afec8b72</UserSecretsId>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="WTF.Plugins\**" />
+    <EmbeddedResource Remove="WTF.Plugins\**" />
+    <None Remove="WTF.Plugins\**" />
+    <Page Remove="WTF.Plugins\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\tools.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+    <PackageReference Include="HandyControl" Version="3.5.1" />
+    <PackageReference Include="HandyControls" Version="3.5.3" />
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
+    <PackageReference Include="MaterialDesignThemes.Wpf" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="OxyPlot.Wpf" Version="2.2.0" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="WTF.Plugins\WTF.Plugins.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\tools.ico" />
+  </ItemGroup>
+
+</Project>

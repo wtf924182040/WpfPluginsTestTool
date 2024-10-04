@@ -1,0 +1,5 @@
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTF.Plugins.csproj.AssemblyReference.cache
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTF.Plugins.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTF.Plugins.AssemblyInfoInputs.cache
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTF.Plugins.AssemblyInfo.cs
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTF.Plugins.csproj.CoreCompileInputs.cache

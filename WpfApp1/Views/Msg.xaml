@@ -1,0 +1,53 @@
+﻿<UserControl
+    x:Class="WpfApp1.Views.Msg"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfApp1.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:WpfApp1.ViewModels"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <UserControl.DataContext>
+        <vm:MsgViewModel />
+    </UserControl.DataContext>
+    <UserControl.InputBindings>
+        <KeyBinding Command="{Binding OpenAutoCommand}" Gesture="Control+Alt+O" />
+        <KeyBinding Command="{Binding CloseAutoCommand}" Gesture="Control+Alt+C" />
+        <KeyBinding Command="{Binding CopyCommand}" Gesture="Control+C" />
+        <KeyBinding Command="{Binding PasteCommand}" Gesture="Control+V" />
+    </UserControl.InputBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="9*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <CheckBox
+            Grid.Row="0"
+            Content="{Binding Checkstatus, Mode=TwoWay}"
+            IsChecked="{Binding IsLogsChangedPropertyInViewModel, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <ScrollViewer
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="6"
+            vm:Helper.AutoScroll="{Binding IsLogsChangedPropertyInViewModel}">
+            <TextBox
+                Margin="2,2,2,2"
+                AcceptsReturn="True"
+                AcceptsTab="True"
+                AutoWordSelection="True"
+                Background="{x:Null}"
+                Text="{Binding Messages, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                TextAlignment="Left" />
+        </ScrollViewer>
+    </Grid>
+</UserControl>

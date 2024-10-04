@@ -1,0 +1,12 @@
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTP.Plugins.csproj.AssemblyReference.cache
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTP.Plugins.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTP.Plugins.AssemblyInfoInputs.cache
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTP.Plugins.AssemblyInfo.cs
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTP.Plugins.csproj.CoreCompileInputs.cache
+D:\Code\WTP.Plugins\bin\Debug\net8.0\WTP.Plugins.deps.json
+D:\Code\WTP.Plugins\bin\Debug\net8.0\WTP.Plugins.dll
+D:\Code\WTP.Plugins\bin\Debug\net8.0\WTP.Plugins.pdb
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTP.Plugins.dll
+D:\Code\WTP.Plugins\obj\Debug\net8.0\refint\WTP.Plugins.dll
+D:\Code\WTP.Plugins\obj\Debug\net8.0\WTP.Plugins.pdb
+D:\Code\WTP.Plugins\obj\Debug\net8.0\ref\WTP.Plugins.dll

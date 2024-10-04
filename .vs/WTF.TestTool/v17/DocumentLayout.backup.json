@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCCE4115-DC02-4A66-9BA4-76E612CBF760}|WTF.Plugins\\WTF.Plugins.csproj|d:\\code\\wpfapp1\\wtf.plugins\\wtf.plugins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCCE4115-DC02-4A66-9BA4-76E612CBF760}|WTF.Plugins\\WTF.Plugins.csproj|solutionrelative:wtf.plugins\\wtf.plugins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|d:\\code\\wpfapp1\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WTF.Plugins.cs",
+              "DocumentMoniker": "D:\\Code\\WpfApp1\\WTF.Plugins\\WTF.Plugins.cs",
+              "RelativeDocumentMoniker": "WTF.Plugins\\WTF.Plugins.cs",
+              "ToolTip": "D:\\Code\\WpfApp1\\WTF.Plugins\\WTF.Plugins.cs",
+              "RelativeToolTip": "WTF.Plugins\\WTF.Plugins.cs",
+              "ViewState": "AgIAANABAAAAAAAAAAAgwOQBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T05:48:29.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Code\\WpfApp1\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\Code\\WpfApp1\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAcwLkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T03:54:25.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
