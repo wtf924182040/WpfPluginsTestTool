@@ -40,14 +40,21 @@
             Grid.Column="0"
             Grid.ColumnSpan="6"
             vm:Helper.AutoScroll="{Binding IsLogsChangedPropertyInViewModel}">
-            <TextBox
+            <!--<TextBox
                 Margin="2,2,2,2"
                 AcceptsReturn="True"
                 AcceptsTab="True"
                 AutoWordSelection="True"
                 Background="{x:Null}"
                 Text="{Binding Messages, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                TextAlignment="Left" />
+                TextAlignment="Left" />-->
+            <RichTextBox 
+                Margin="2,2,2,2"
+                AcceptsReturn="True"
+                AcceptsTab="True"
+                AutoWordSelection="True"
+                Background="{x:Null}" vm:Helper.MyProperty="{Binding Mg}" >
+            </RichTextBox>
         </ScrollViewer>
     </Grid>
 </UserControl>

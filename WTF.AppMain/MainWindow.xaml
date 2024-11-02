@@ -1,0 +1,25 @@
+﻿<Window
+    x:Class="WTF.AppMain.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WTF.AppMain"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.DataContext>
+        <local:test />
+    </Window.DataContext>
+    <UniformGrid Rows="2">
+        <Grid>
+            <local:Stextbox Document="{Binding Document1}" />
+
+        </Grid>
+        <Grid>
+            <Button Grid.Row="1" Command="{Binding RunCommand }">TEST</Button>
+
+        </Grid>
+    </UniformGrid>
+</Window>

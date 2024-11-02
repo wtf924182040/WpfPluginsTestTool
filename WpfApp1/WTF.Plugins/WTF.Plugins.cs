@@ -275,7 +275,7 @@ namespace WTF
                 警告,
                 消息,
             }
-            public string MsgContent { get; set; } = "消息";
+            public string MsgContent { get; set; } = "";
             public LogType MsgType { get; set; } = LogType.消息;
         }
         public static class ExtendedHelper
