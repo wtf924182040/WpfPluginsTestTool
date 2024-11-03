@@ -140,7 +140,7 @@ namespace WpfApp1.ViewModels
         private void Load()///数据库加载
         {
             Typelist.Clear();
-            var db = new SQLiteConnection(Path.GetFullPath("reservoom.db", Environment.CurrentDirectory));
+            var db = new SQLiteConnection(Path.GetFullPath("RawData.tof", Environment.CurrentDirectory));
             TableQuery<TestItem> users = db.Table<TestItem>();
             var Filelist = from i in System.IO.Directory.GetFiles(Environment.CurrentDirectory) where Path.GetExtension(i) == ".dll" select i;
             Collection<Type> types = new Collection<Type>();

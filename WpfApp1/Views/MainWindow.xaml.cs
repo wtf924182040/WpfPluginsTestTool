@@ -1,6 +1,5 @@
 ﻿using HandyControl.Controls;
 using HandyControl.Data;
-using MaterialDesignColors;
 using System.ComponentModel;
 using System.Reflection;
 using System.Text;

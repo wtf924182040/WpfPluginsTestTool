@@ -32,12 +32,19 @@ namespace WTF
         /// </summary>
         public abstract partial class PluginsBase : ObservableValidator, IPluginsBase
         {
-
+            public PluginsBase()
+            {
+                var db = new SQLiteConnection(SqlAddrContent);
+                if (db.Tables().Contains("TestItem") ==false)
+                {
+                    db.CreateTable<TestItem>();
+                };
+            }
             /// <summary>
             /// 该字段为数据库文件存储地址
             /// </summary>
             [Browsable(false)]
-            private string SqlAddrContent { get; set; } = Path.GetFullPath("reservoom.db", Environment.CurrentDirectory);// = """C:\Users\92418\Desktop\reservoom.db""";
+            private string SqlAddrContent { get; set; } = Path.GetFullPath("RawData.tof", Environment.CurrentDirectory);// = """C:\Users\92418\Desktop\reservoom.db""";
             private double _pluginsID = 1.0;
             /// <summary>
             /// 插件版本号ID,ID范围在1，10000之间"
@@ -252,6 +259,7 @@ namespace WTF
         }
         public class TestItem
         {
+            [PrimaryKey]
             public string Name { get; set; }
             public string Value { get; set; }
             public string TypeName { get; set; }
@@ -330,6 +338,48 @@ namespace WTF
 
 
 
+        }
+        public static class SqliteExtensions
+        {
+            public static List<string> Tables(this SQLiteConnection connection)
+            {
+                const string GET_TABLES_QUERY = "SELECT NAME from sqlite_master";
+
+                List<string> tables = new List<string>();
+
+                var statement = SQLite3.Prepare2(connection.Handle, GET_TABLES_QUERY);
+
+                try
+                {
+                    bool done = false;
+                    while (!done)
+                    {
+                        SQLite3.Result result = SQLite3.Step(statement);
+
+                        if (result == SQLite3.Result.Row)
+                        {
+
+                            var tableName = SQLite3.ColumnString(statement, 0);
+
+                            tables.Add(tableName);
+                        }
+                        else if (result == SQLite3.Result.Done)
+                        {
+                            done = true;
+                        }
+                        else
+                        {
+                            throw SQLiteException.New(result, SQLite3.GetErrmsg(connection.Handle));
+                        }
+                    }
+                }
+                finally
+                {
+                    SQLite3.Finalize(statement);
+                }
+
+                return tables;
+            }
         }
     }
     namespace Plugins.Test
@@ -468,20 +518,27 @@ namespace WTF
                     LogMessage tep = new LogMessage($"发送{Sedtxt}完成");
                     tep.PostMsg();
                     data = new byte[1024];
-                    int temp = MyTcpClient.Receive(data);
+                    Task.Run(() => {
+                        while (true) {
+                            int temp = MyTcpClient.Receive(data);
+                            if (temp > 0) { 
+                            if (Usencoding == Usencod.ASCII)
+                                {
+                                    Rectxt = Encoding.ASCII.GetString(data, 0, data.Length);
+                                }
+                                else
+                                {
+                                    Rectxt = Encoding.Unicode.GetString(data, 0, data.Length);
+                                }
+                            if (SedHex)
+                            {
+                                Rectxt = BitConverter.ToString(data, 0, temp).Replace("-", " ").ToUpper();
+                            }
+                        }
 
-                    if (Usencoding == Usencod.ASCII)
-                    {
-                        Rectxt = Encoding.ASCII.GetString(data, 0, data.Length);
-                    }
-                    else
-                    {
-                        Rectxt = Encoding.Unicode.GetString(data, 0, data.Length);
-                    }
-                    if (SedHex)
-                    {
-                        Rectxt = BitConverter.ToString(data, 0, temp).Replace("-", " ").ToUpper();
-                    }
+                        }                                      
+                    
+                    });
                     return $"发送{Sedtxt}完成";
                 }
                 catch (System.Net.Sockets.SocketException ex)

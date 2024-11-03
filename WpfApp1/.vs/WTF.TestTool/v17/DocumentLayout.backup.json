@@ -7,8 +7,36 @@
       "RelativeMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FCCE4115-DC02-4A66-9BA4-76E612CBF760}|WTF.Plugins\\WTF.Plugins.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\wtf.plugins\\wtf.plugins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCCE4115-DC02-4A66-9BA4-76E612CBF760}|WTF.Plugins\\WTF.Plugins.csproj|solutionrelative:wtf.plugins\\wtf.plugins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\wtf.testtool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|solutionrelative:wtf.testtool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\viewmodels\\msgviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|solutionrelative:viewmodels\\msgviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCCE4115-DC02-4A66-9BA4-76E612CBF760}|WTF.Plugins\\WTF.Plugins.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\wtf.plugins\\wtf.plugins.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FCCE4115-DC02-4A66-9BA4-76E612CBF760}|WTF.Plugins\\WTF.Plugins.csproj|solutionrelative:wtf.plugins\\wtf.plugins.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\views\\msg.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -17,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\views\\msg.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|solutionrelative:views\\msg.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCCE4115-DC02-4A66-9BA4-76E612CBF760}|WTF.Plugins\\WTF.Plugins.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\wtf.plugins\\wtf.plugins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCCE4115-DC02-4A66-9BA4-76E612CBF760}|WTF.Plugins\\WTF.Plugins.csproj|solutionrelative:wtf.plugins\\wtf.plugins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|d:\\code\\wpfpluginstesttool.git\\wpfapp1\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{003B5A97-5395-4486-B6A6-7718695C594F}|WTF.TestTool.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +54,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-03T10:02:07.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:01:44.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.g.cs",
+              "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs",
+              "ToolTip": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:01:35.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WTF.Plugins.csproj",
+              "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
+              "RelativeDocumentMoniker": "WTF.Plugins\\WTF.Plugins.csproj",
+              "ToolTip": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.csproj",
+              "RelativeToolTip": "WTF.Plugins\\WTF.Plugins.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T09:36:53.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WTF.TestTool.csproj",
+              "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.TestTool.csproj",
+              "RelativeDocumentMoniker": "WTF.TestTool.csproj",
+              "ToolTip": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.TestTool.csproj",
+              "RelativeToolTip": "WTF.TestTool.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T09:22:08.185Z"
             },
             {
               "$type": "Document",
@@ -48,39 +127,38 @@
               "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAOgAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T12:53:31.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "WTF.Plugins.cs",
               "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.cs",
               "RelativeDocumentMoniker": "WTF.Plugins\\WTF.Plugins.cs",
               "ToolTip": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\WTF.Plugins\\WTF.Plugins.cs",
               "RelativeToolTip": "WTF.Plugins\\WTF.Plugins.cs",
-              "ViewState": "AgIAAPQBAAAAAAAAAADwvxUBAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAANQBAAAAAAAAAAAwwO8BAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T12:40:12.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "MsgViewModel.cs",
               "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\ViewModels\\MsgViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MsgViewModel.cs",
               "ToolTip": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\ViewModels\\MsgViewModel.cs",
               "RelativeToolTip": "ViewModels\\MsgViewModel.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAswGQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwBsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:35:41.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T11:35:41.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Msg.xaml.cs",
               "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\Views\\Msg.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Msg.xaml.cs",
@@ -92,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Msg.xaml",
               "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\Views\\Msg.xaml",
               "RelativeDocumentMoniker": "Views\\Msg.xaml",
@@ -103,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Code\\WpfPluginsTestTool.git\\WpfApp1\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
